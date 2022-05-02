@@ -12,7 +12,12 @@ Mouth é o repositório onde estarão minhas soluções para os desafios do BOCA
 ## Pré-requisitos
 * Linux
 ~~, duh~~;
-* Algum compilador C instalado (e.g. GCC, LLVM).
+* Algum compilador C instalado (e.g. GCC, LLVM);
+* Configure seu compilador para o padrão `C89`, `C90` ou `ansi`. Por exemplo, usando o gcc:
+
+    ``` bash
+        gcc -ansi -o main.o main.c
+    ```
 
 ## Começando
 1. Clone o repositório
@@ -27,4 +32,4 @@ Mouth é o repositório onde estarão minhas soluções para os desafios do BOCA
     cd ufes-mouth/
     ```
 4. Vá à pasta referente ao desafio de sua escolha
-5. Compile o código fonte com o compilador de sua escolha. Não se esqueça de linkar as libs caso seja necessário.
+5. Compile o código fonte com o compilador de sua escolha. Certifique-se de que o compilador está configurado para o padrão `C90`. Não se esqueça de linkar as libs caso seja necessário.
