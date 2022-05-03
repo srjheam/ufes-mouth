@@ -16,7 +16,7 @@ Mouth é o repositório onde estarão minhas soluções para os desafios do BOCA
 * Configure seu compilador para o padrão `C89`, `C90` ou `ansi`. Por exemplo, usando o gcc:
 
     ``` bash
-        gcc -ansi -o main.o main.c
+    gcc -ansi -o main.o main.c
     ```
 
 ## Começando
