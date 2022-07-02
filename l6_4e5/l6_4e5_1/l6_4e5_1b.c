@@ -51,7 +51,7 @@ int getPctValue(tPacote pct) {
     return value;
 }
 
-int ehPacoteFalho(tPacote pct) {
+int ehPacoteValido(tPacote pct) {
     int expected = getPctValue(pct);
     return expected == pct.errorCode;
 }
@@ -62,7 +62,7 @@ void main(void) {
 
     while (n--) {
         tPacote pct = LePacote();
-        if (!ehPacoteFalho(pct))
+        if (!ehPacoteValido(pct))
             printf("FALHA!\n");
         else
             ImprimePacote(pct);
